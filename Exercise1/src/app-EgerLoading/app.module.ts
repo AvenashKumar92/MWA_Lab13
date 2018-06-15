@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ErrorComponent } from './farmers-market/error.component';
 
 import { AppComponent } from './app.component';
 //import { myRoutes } from "./app-routing.module";
@@ -9,8 +8,7 @@ import {FarmersMarketModule, FARM_DETAILS_ROUTE} from './farmers-market/farmers-
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ErrorComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

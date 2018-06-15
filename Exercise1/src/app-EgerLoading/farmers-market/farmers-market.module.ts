@@ -9,7 +9,7 @@ import { ErrorComponent } from './error.component';
 
 export const FARM_DETAILS_ROUTE = [{ path: '', component: FarmsComponent }];
 @NgModule({
-  declarations: [FarmsComponent],
+  declarations: [FarmsComponent, ErrorComponent],
   imports: [
     BrowserModule,
     
